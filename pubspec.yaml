@@ -1,0 +1,33 @@
+name: frame_vision_gemini
+description: "Queries Google Gemini with a photo taken from Brilliant Labs Frame and a user-editable text prompt"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue_plus: ^1.35.2
+  google_generative_ai: ^0.4.6
+  image: ^4.3.0
+  logging: ^1.3.0
+  share_plus: ^10.1.0
+  shared_preferences: ^2.3.2
+  simple_frame_app: ^4.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - packages/simple_frame_app/lua/battery.min.lua
+    - packages/simple_frame_app/lua/camera.min.lua
+    - packages/simple_frame_app/lua/code.min.lua
+    - packages/simple_frame_app/lua/data.min.lua
+    - packages/simple_frame_app/lua/plain_text.min.lua
+    - assets/frame_app.lua

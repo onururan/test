@@ -1,0 +1,4 @@
+#Mon Feb 03 16:11:11 EST 2025
+base.0=/Users/ouran/Downloads/456/android/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
