@@ -101,7 +101,7 @@
 67        android:debuggable="true"
 68        android:extractNativeLibs="true"
 69        android:icon="@mipmap/ic_launcher"
-70        android:label="frame_vision_gemini" >
+70        android:label="EFY" >
 71        <activity
 72            android:name="com.example.frame_vision_gemini.MainActivity"
 73            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode|navigation"
