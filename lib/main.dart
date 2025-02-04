@@ -69,7 +69,7 @@ class MainAppState extends State<MainApp> with SimpleFrameAppState, FrameVisionA
 
   GenerativeModel _initModel() {
     return GenerativeModel(
-      model: 'gemini-2.0-flash-exp',
+      model: 'gemini-1.5-flash-latest',
       apiKey: _apiKey,
       safetySettings: [
         SafetySetting(HarmCategory.harassment, HarmBlockThreshold.none),
